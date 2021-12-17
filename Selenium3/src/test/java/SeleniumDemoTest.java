@@ -27,7 +27,7 @@ class SeleniumDemoTest {
 
     }
 
-    @RepeatedTest(14)
+    @RepeatedTest(15)
     public void testAQuery() throws InterruptedException {
         WebElement searchBar = driver.findElement(By.name("q"));
         searchBar.sendKeys("Selenium3");
